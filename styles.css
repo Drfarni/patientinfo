@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1aa759;
+    background-color: #24a049;
     line-height: 1.6;
 }
 
@@ -36,7 +36,7 @@ p {
 a {
     display: inline-block;
     margin-top: 20px;
-    color: #4CAF50;
+    color: #010501;
     text-decoration: none;
     font-weight:bold;
 
@@ -51,9 +51,13 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
 nav a {
-    color: white;
+    color: rgb(250, 245, 245);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -73,4 +77,32 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+@media (max-width: 600px) {
+    .content {
+        padding: 20px;
+        margin: 20px auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        padding: 10px;
+        text-align: center;
+    }
+    img {
+        display: block;¨
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+    }
 }
