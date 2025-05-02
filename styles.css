@@ -54,13 +54,14 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #054b1c;
 }
 nav a {
-    color: rgb(14, 1, 1);
+    color: rgb(5, 12, 9);
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+    display: block;
 }
 
 main {
