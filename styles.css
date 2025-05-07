@@ -7,14 +7,19 @@ body {
 }
 
 .content {
+
     max-width: 800px;
-    background-color: #266b14;
+    background-color: #daf0b1;
     padding: 30px;
     margin: 40px auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
-
+.content p,
+.content li {
+    text-align: justify;
+}
 h1 {
     font-size: 28px;
     color: #110202;
