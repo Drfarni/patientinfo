@@ -101,7 +101,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: fixed;  
     bottom: 0;
     width: 100%;
 }
@@ -110,6 +110,19 @@ footer {
         padding: 20px;
         margin: 20px auto;
     }
+    .link-list {
+        grid-template-columns: 1fr;
+    }
+    .link-list li {
+       padding: 15px;
+       margin-bottom: 10 px;
+       
+    }
+    .link-list li a {
+        font-size: 16px;
+        text-align: center;
+    }
+  
     h1 {
         font-size: 24px;
     }
@@ -127,7 +140,7 @@ footer {
         text-align: center;
     }
     img {
-        display: block;¨
+        display: block;
         margin: 20px auto;
         max-width: 100%;
         height: auto;
